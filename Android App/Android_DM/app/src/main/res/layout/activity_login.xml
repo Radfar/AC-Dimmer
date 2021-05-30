@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="190dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/login_Page"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/editText"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:hint="@string/password"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="55dp"
+            android:text="@string/exit"
+            android:id="@+id/button"
+            android:onClick="exit"
+            android:background="@drawable/button_selector"
+            style="@android:style/ButtonBar"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="55dp"
+            android:text="@string/login"
+            android:id="@+id/button2"
+            android:onClick="login"
+            style="@android:style/ButtonBar"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp">
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="55dp"
+            android:text="@string/help"
+            android:id="@+id/button3"
+            android:onClick="help"
+            style="@android:style/ButtonBar"
+            android:background="@drawable/button_selector"
+            android:textSize="25sp"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

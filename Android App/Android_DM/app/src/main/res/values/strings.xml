@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AtoA AC</string>
+    <string name="action_settings">Settings</string>
+    <string name="Paired_Devices">Paired Devices :</string>
+    <string name="connect">Show/Refresh Devices</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="password">Enter Password</string>
+    <string name="exit">Exit</string>
+    <string name="login">Enter</string>
+    <string name="help">Help</string>
+    <string name="login_Page">www.atoaco.com\nRemote Control\nV2.0</string>
+    <string name="long_text">برای دریافت رمز عبور از سایت\nwww.atoaco.com\n بازدید کرده و یا با شماره های \n02634463470\n02634471412\n تماس گرفته تا کارشناسان ما شما را یاری نمایند.</string>
+</resources>
